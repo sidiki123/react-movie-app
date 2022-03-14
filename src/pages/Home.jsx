@@ -14,7 +14,7 @@ const Home = () => {
             <div className="container">
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Trending Movies</h2>
+                        <h2>Films tendances</h2>
                         <Link to="/movie">
                             <OutlineButton className="small">View more</OutlineButton>
                         </Link>
@@ -24,7 +24,7 @@ const Home = () => {
 
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Top Rated Movies</h2>
+                        <h2>Films les mieux notés</h2>
                         <Link to="/movie">
                             <OutlineButton className="small">View more</OutlineButton>
                         </Link>
@@ -34,7 +34,7 @@ const Home = () => {
 
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Trending TV</h2>
+                        <h2>Télévisions tendances</h2>
                         <Link to="/tv">
                             <OutlineButton className="small">View more</OutlineButton>
                         </Link>
@@ -44,7 +44,7 @@ const Home = () => {
 
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Top Rated TV</h2>
+                        <h2>Télévisions les mieux notées</h2>
                         <Link to="/tv">
                             <OutlineButton className="small">View more</OutlineButton>
                         </Link>
